@@ -1,0 +1,272 @@
+
+
+    <input type="hidden" name="formID" value="73095449184162" />
+    <div class="form-all">
+        <ul class="form-section page-section">
+            <li id="cid_19" class="form-input-wide" data-type="control_head">
+                <div class="form-header-group ">
+                    <div class="header-text httal htvam">
+                        <h2 id="header_19" class="form-header" data-component="header">
+                            Property Upload
+                        </h2>
+                        <div id="subHeader_19" class="form-subHeader">
+                            Please fill the form below about the property
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="form-line jf-required" data-type="control_textbox" id="id_1">
+                <label class="form-label form-label-top form-label-auto" id="label_1" for="input_1">
+                    The property name:<span class="form-required">*</span>
+                </label>
+                <div id="cid_1" class="form-input-wide jf-required">
+                    <input type="text" id="input_1" name="q1_yourName" data-type="input-textbox" class="form-textbox validate[required]" size="48" value="" placeholder=" " data-component="textbox" required="" />
+                </div>
+            </li>
+            <li class="form-line" data-type="control_address" id="id_20">
+                <label class="form-label form-label-top form-label-auto" id="label_20" for="input_20undefined"> Address </label>
+                <div id="cid_20" class="form-input-wide">
+                    <table summary="" class="form-address-table" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td colspan="2">
+                  <span class="form-sub-label-container" style="vertical-align:top;">
+                    <input type="text" id="input_20_addr_line1" name="q20_address20[addr_line1]" class="form-textbox form-address-line" value="" data-component="address_line_1" />
+                    <label class="form-sub-label" for="input_20_addr_line1" id="sublabel_20_addr_line1" style="min-height:13px;"> Street Address </label>
+                  </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                  <span class="form-sub-label-container" style="vertical-align:top;">
+                    <input type="text" id="input_20_addr_line2" name="q20_address20[addr_line2]" class="form-textbox form-address-line" size="46" value="" data-component="address_line_2" />
+                    <label class="form-sub-label" for="input_20_addr_line2" id="sublabel_20_addr_line2" style="min-height:13px;"> Street Address Line 2 </label>
+                  </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="50%">
+                  <span class="form-sub-label-container" style="vertical-align:top;">
+                    <input type="text" id="input_20_city" name="q20_address20[city]" class="form-textbox form-address-city" size="21" value="" data-component="city" />
+                    <label class="form-sub-label" for="input_20_city" id="sublabel_20_city" style="min-height:13px;"> City </label>
+                  </span>
+                            </td>
+                            <td>
+                  <span class="form-sub-label-container" style="vertical-align:top;">
+                    <input type="text" id="input_20_state" name="q20_address20[state]" class="form-textbox form-address-state" size="22" value="" data-component="state" />
+                    <label class="form-sub-label" for="input_20_state" id="sublabel_20_state" style="min-height:13px;"> State / Province </label>
+                  </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="50%">
+                  <span class="form-sub-label-container" style="vertical-align:top;">
+                    <input type="text" id="input_20_postal" name="q20_address20[postal]" class="form-textbox form-address-postal" size="10" value="" data-component="zip" />
+                    <label class="form-sub-label" for="input_20_postal" id="sublabel_20_postal" style="min-height:13px;"> Postal / Zip Code </label>
+                  </span>
+                            </td>
+
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+            <li class="form-line jf-required" data-type="control_phone" id="id_21">
+                <label class="form-label form-label-left" id="label_21" for="input_21_area">
+                    Phone Number
+                    <span class="form-required">
+            *
+          </span>
+                </label>
+                <div id="cid_21" class="form-input jf-required">
+                    <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top;">
+              <input type="tel" id="input_21_area" name="q21_phoneNumber21[area]" class="form-textbox validate[required]" size="3" value="" data-component="areaCode" required="" />
+              <span class="phone-separate">
+                 -
+              </span>
+              <label class="form-sub-label" for="input_21_area" id="sublabel_area" style="min-height:13px;"> Area Code </label>
+            </span>
+                        <span class="form-sub-label-container" style="vertical-align:top;">
+              <input type="tel" id="input_21_phone" name="q21_phoneNumber21[phone]" class="form-textbox validate[required]" size="8" value="" data-component="phone" required="" />
+              <label class="form-sub-label" for="input_21_phone" id="sublabel_phone" style="min-height:13px;"> Phone Number </label>
+            </span>
+                    </div>
+                </div>
+            </li>
+            <li class="form-line jf-required" data-type="control_email" id="id_22">
+                <label class="form-label form-label-left" id="label_22" for="input_22">
+                    E-mail
+                    <span class="form-required">
+            *
+          </span>
+                </label>
+                <div id="cid_22" class="form-input jf-required">
+                    <input type="email" id="input_22" name="q22_email22" class="form-textbox validate[required, Email]" size="30" value="" placeholder="ex: myname@example.com" data-component="email" required="" />
+                </div>
+            </li>
+            <li class="form-line" data-type="control_textarea" id="id_9">
+                <label class="form-label form-label-top form-label-auto" id="label_9" for="input_9"> Include any listing numbers or properties of interest here: </label>
+                <div id="cid_9" class="form-input-wide">
+                    <textarea id="input_9" class="form-textarea" name="q9_includeAny9" cols="40" rows="6" data-component="textarea"></textarea>
+                </div>
+            </li>
+            <li class="form-line" data-type="control_radio" id="id_10">
+                <label class="form-label form-label-top form-label-auto" id="label_10" for="input_10"> Have you visited the State previously </label>
+                <div id="cid_10" class="form-input-wide">
+                    <div class="form-single-column" data-component="radio">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_10_0" name="q10_haveYou10" value="Yes" />
+              <label id="label_input_10_0" for="input_10_0"> Yes </label>
+            </span>
+                        <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_10_1" name="q10_haveYou10" value="No" />
+              <label id="label_input_10_1" for="input_10_1"> No </label>
+            </span>
+                    </div>
+                </div>
+            </li>
+            <li class="form-line" data-type="control_datetime" id="id_23">
+                <label class="form-label form-label-top form-label-auto" id="label_23" for="month_23"> When are you planing on visiting? </label>
+                <div id="cid_23" class="form-input-wide">
+                    <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top;">
+              <input class="form-textbox validate[limitDate]" id="month_23" name="q23_whenAre23[month]" type="tel" size="2" data-maxlength="2" value="" />
+              <span class="date-separate">
+                 -
+              </span>
+              <label class="form-sub-label" for="month_23" id="sublabel_month" style="min-height:13px;"> Month </label>
+            </span>
+                        <span class="form-sub-label-container" style="vertical-align:top;">
+              <input class="form-textbox validate[limitDate]" id="day_23" name="q23_whenAre23[day]" type="tel" size="2" data-maxlength="2" value="" />
+              <span class="date-separate">
+                 -
+              </span>
+              <label class="form-sub-label" for="day_23" id="sublabel_day" style="min-height:13px;"> Day </label>
+            </span>
+                        <span class="form-sub-label-container" style="vertical-align:top;">
+              <input class="form-textbox validate[limitDate]" id="year_23" name="q23_whenAre23[year]" type="tel" size="4" data-maxlength="4" value="" />
+              <label class="form-sub-label" for="year_23" id="sublabel_year" style="min-height:13px;"> Year </label>
+            </span>
+                        <span class="form-sub-label-container" style="vertical-align:top;">
+              <img class="showAutoCalendar" alt="Pick a Date" id="input_23_pick" src="https://cdn.jotfor.ms/images/calendar.png" style="vertical-align:middle;" data-component="datetime" />
+              <label class="form-sub-label" for="input_23_pick" style="min-height:13px;">  </label>
+            </span>
+                    </div>
+                </div>
+            </li>
+            <li class="form-line" data-type="control_dropdown" id="id_24">
+                <label class="form-label form-label-top form-label-auto" id="label_24" for="input_24"> How long are you planing to stay? </label>
+                <div id="cid_24" class="form-input-wide">
+                    <select class="form-dropdown" id="input_24" name="q24_howLong24" style="width:150px;" data-component="dropdown">
+                        <option value="">  </option>
+                        <option value="more or less than hour"> more or less than hour </option>
+                        <option value="less than a week"> less than a week </option>
+                        <option value="one week"> one week </option>
+                        <option value="one month"> one month </option>
+                        <option value="I&#x27;m not sure how long"> I&#x27;m not sure how long </option>
+                    </select>
+                </div>
+            </li>
+            <li class="form-line" data-type="control_radio" id="id_13">
+                <label class="form-label form-label-top form-label-auto" id="label_13" for="input_13"> Can we help you make travel arrangements? </label>
+                <div id="cid_13" class="form-input-wide">
+                    <div class="form-single-column" data-component="radio">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_13_0" name="q13_canWe" value="Yes" />
+              <label id="label_input_13_0" for="input_13_0"> Yes </label>
+            </span>
+                        <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_13_1" name="q13_canWe" value="No" />
+              <label id="label_input_13_1" for="input_13_1"> No </label>
+            </span>
+                    </div>
+                </div>
+            </li>
+            <li class="form-line jf-required" data-type="control_checkbox" id="id_15">
+                <label class="form-label form-label-top form-label-auto" id="label_15" for="input_15_0">
+                    What kind of property are you interested in?
+                    <span class="form-required">
+            *
+          </span>
+                </label>
+                <div id="cid_15" class="form-input-wide jf-required">
+                    <div class="form-single-column" data-component="checkbox">
+            <span class="form-checkbox-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox validate[required]" id="input_15_0" name="q15_whatKind[]" value="Raw Land" required="" />
+              <label id="label_input_15_0" for="input_15_0"> Raw Land </label>
+            </span>
+                        <span class="form-checkbox-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox validate[required]" id="input_15_1" name="q15_whatKind[]" value="Lot in a Development" required="" />
+              <label id="label_input_15_1" for="input_15_1"> Lot in a Development </label>
+            </span>
+                        <span class="form-checkbox-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox validate[required]" id="input_15_2" name="q15_whatKind[]" value="Condos" required="" />
+              <label id="label_input_15_2" for="input_15_2"> Condos </label>
+            </span>
+                        <span class="form-checkbox-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox validate[required]" id="input_15_3" name="q15_whatKind[]" value="Single Family Home" required="" />
+              <label id="label_input_15_3" for="input_15_3"> Single Family Home </label>
+            </span>
+                        <span class="form-checkbox-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox validate[required]" id="input_15_4" name="q15_whatKind[]" value="Other" required="" />
+              <label id="label_input_15_4" for="input_15_4"> Other </label>
+            </span>
+                    </div>
+                </div>
+            </li>
+            <li class="form-line" data-type="control_dropdown" id="id_16">
+                <label class="form-label form-label-top form-label-auto" id="label_16" for="input_16"> What kind of location are you interested in? </label>
+                <div id="cid_16" class="form-input-wide">
+                    <select class="form-dropdown" id="input_16" name="q16_whatKind16" style="width:150px;" data-component="dropdown">
+                        <option value="">  </option>
+                        <option value="Ocean View"> Ocean View </option>
+                        <option value="Beachfront"> Beachfront </option>
+                        <option value="Near Surf"> Near Surf </option>
+                        <option value="In Town"> In Town </option>
+                        <option value="Farm or Ranch"> Farm or Ranch </option>
+                        <option value="Other"> Other </option>
+                        <option value="Does Not Matter"> Does Not Matter </option>
+                    </select>
+                </div>
+            </li>
+            <li class="form-line" data-type="control_dropdown" id="id_17">
+                <label class="form-label form-label-top form-label-auto" id="label_17" for="input_17"> What is your budget? </label>
+                <div id="cid_17" class="form-input-wide">
+                    <select class="form-dropdown" id="input_17" name="q17_whatIs" style="width:150px;" data-component="dropdown">
+                        <option value="">  </option>
+                        <option value="$0 - $50,000"> $0 - $50,000 </option>
+                        <option value="$50,000 - $100,000"> $50,000 - $100,000 </option>
+                        <option value="$100,00 - $250,000"> $100,00 - $250,000 </option>
+                        <option value="$250,000 - $500,000"> $250,000 - $500,000 </option>
+                        <option value="$500,000 - $1,000,000"> $500,000 - $1,000,000 </option>
+                        <option value="$1,000,000 plus"> $1,000,000 plus </option>
+                    </select>
+                </div>
+            </li>
+            <li class="form-line" data-type="control_textarea" id="id_18">
+                <label class="form-label form-label-top form-label-auto" id="label_18" for="input_18"> Questions/Comments: </label>
+                <div id="cid_18" class="form-input-wide">
+                    <textarea id="input_18" class="form-textarea" name="q18_questionscomments" cols="40" rows="6" data-component="textarea"></textarea>
+                </div>
+            </li>
+
+

@@ -1,0 +1,2 @@
+rom type 3 types:
+0 1 2 private room, entire apartment, shared room

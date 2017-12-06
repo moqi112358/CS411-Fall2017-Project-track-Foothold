@@ -1,0 +1,20 @@
+alter table owners add column phone varchar(30);
+alter table rent add column userId BIGINT unsigned;
+alter table rent add column endDate date;
+
+create view rentDates as SELECT Book_date, endDate, houseId FROM rent ;
+
+DELIMITER //
+create trigger dateVerify after insert on rent 
+for each row 
+Begin
+	if (new.Book_Date > new.endDate) then
+		SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Bookdate should be <= enddate';
+    end if;
+END;
+
+//
+
+alter table owners add foreign key key1_hj (hostid) references users (userid);
+create index addressIndex on houses (street);
+create index rentuseridIndex on rent(userid);
